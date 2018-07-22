@@ -1,0 +1,35 @@
+.page-main {
+  width: 1145px;
+  margin: 0 auto;
+}
+
+.page-main__title {
+  padding: 0;
+  margin: 0;
+  margin-top: 42px;
+  margin-bottom: 10px;
+
+  font-size: 64px;
+  line-height: 64px;
+  color: #4b4b4b;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.page-main__description {
+  padding: 0;
+  margin: 0;
+
+  font-size: 26px;
+  line-height: 26px;
+  color: #4b4b4b;
+  font-weight: 100;
+}
+
+.page-main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  margin-top: 34px;
+}

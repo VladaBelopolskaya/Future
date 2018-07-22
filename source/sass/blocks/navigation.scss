@@ -1,0 +1,56 @@
+.navigation {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__item {
+  display: block;
+  padding: 17px 0;
+  border-right: 1px solid #5f6973;
+  text-align: center;
+
+  font-size: 24px;
+  line-height: 24px;
+  color: #5f6973;
+  text-decoration: none;
+
+  transition: 0.3s linear;
+
+  &--about {
+    width: 240px;
+  }
+
+  &--price {
+    width: 226px;
+  }
+
+  &--product {
+    width: 249px;
+  }
+
+  &--stock {
+    width: 213px;
+  }
+
+  &--contacts {
+    width: 210px;
+    border-right: none;
+  }
+
+  &--active {
+    color: #ffffff;
+    background-color: #7bc3d5;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: #92e4f8;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: #7bc3d5;
+  }
+}

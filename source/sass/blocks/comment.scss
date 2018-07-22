@@ -1,0 +1,145 @@
+.comment {
+  box-sizing: border-box;
+  width: 880px;
+  margin-top: 15px;
+  margin-bottom: 94px;
+}
+
+.comment__title {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+  font-size: 26px;
+  line-height: 26px;
+  color: #484848;
+  font-weight: 100;
+}
+
+.comment__link {
+  padding: 0;
+  margin: 0;
+  margin-left: 239px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #eb5825;
+  font-weight: 100;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #eb5825;
+
+  &--full {
+    position: relative;
+    display: block;
+    width: 162px;
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 34px;
+    border-bottom: 1px dashed #eb5825;
+
+    &::before {
+      position: absolute;
+      content: "";
+
+      background-image: url("../img/arrow.png");
+      background-repeat: no-repeat;
+      width: 13px;
+      height: 13px;
+      left: -20px;
+      top: 2px;
+    }
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.comment__one {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding-bottom: 38px;
+  padding-top: 36px;
+  padding-left: 27px;
+  padding-right: 76px;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.comment__autor {
+  padding: 0;
+  margin: 0;
+
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #484848;
+  font-weight: 100;
+}
+
+.comment__notice {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8a8a8a;
+  font-weight: 100;
+}
+
+.comment__star {
+  display: flex;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.comment__star li {
+  margin-right: 1px;
+  background-image: url("../img/star.png");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.comment__description {
+  quotes: none;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #484848;
+  font-weight: 100;
+}
+
+.comment__button {
+  cursor: pointer;
+  width: 164px;
+  background-color: #eb5825;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 100;
+
+  transition: 0.3s linear;
+
+  &:focus,
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
